@@ -1,0 +1,24 @@
+{
+  "name": "taller2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "cypress-run": "cypress run ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresVaron/Pruebas-Taller-6-VRT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresVaron/Pruebas-Taller-6-VRT/issues"
+  },
+  "homepage": "https://github.com/AndresVaron/Pruebas-Taller-6-VRT#readme",
+  "devDependencies": {
+    "cypress": "^5.0.0"
+  }
+}

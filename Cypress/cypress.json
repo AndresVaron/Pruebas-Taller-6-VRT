@@ -1,0 +1,5 @@
+{
+  "reporter": "junit",
+  "reporterOptions": { "mochaFile": "results/${ver}.xml" },
+  "video": "false"
+}
