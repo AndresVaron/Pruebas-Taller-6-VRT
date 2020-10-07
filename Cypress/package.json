@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndresVaron/Pruebas-Taller-6-VRT.git"
+    "url": "git+https://github.com/AndresVaron/Pruebas-Taller2-E2E.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndresVaron/Pruebas-Taller-6-VRT/issues"
+    "url": "https://github.com/AndresVaron/Pruebas-Taller2-E2E/issues"
   },
-  "homepage": "https://github.com/AndresVaron/Pruebas-Taller-6-VRT#readme",
+  "homepage": "https://github.com/AndresVaron/Pruebas-Taller2-E2E#readme",
   "devDependencies": {
     "cypress": "^5.0.0"
   }
