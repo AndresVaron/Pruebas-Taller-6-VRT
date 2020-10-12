@@ -21,8 +21,7 @@ const compare = async (imageId) => {
     await fs.writeFile(`images/results/${imageId}.png`, data.getBuffer());
     const result = { reportDate: new Date(), report: data, imageId, baseImage: `/base/${imageId}.png`, modifiedImage: `/modified/${imageId}.png`, resultImage: `/results/${imageId}.png` };
     const db = require('../data/db.json');
-    db.push(result);
-    await fs.writeFile('data/db.json', JSON.stringify(db));
+    await fs.writeFile('data/db.json', JSON.stringify([result, ...db]));
     return result;
 };
 

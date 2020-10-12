@@ -1,2 +1,11 @@
 /Cypress/node_modules
 /App/node_modules
+automated-vrt/images/results/
+
+automated-vrt/data/db.json
+
+automated-vrt/cypress/screenshots/vrtColor.spec.js/base/
+
+automated-vrt/cypress/screenshots/vrtColor.spec.js/modified/
+
+automated-vrt/data/
