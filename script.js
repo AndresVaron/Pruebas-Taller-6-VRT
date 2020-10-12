@@ -22,7 +22,7 @@ function randomPalette() {
             `;
 }
 
-function generateRules() {}
+function generateRules() { }
 
 function limpiarPalette() {
   document.getElementById("css-rules").innerHTML = ` 
